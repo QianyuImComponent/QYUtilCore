@@ -8,35 +8,43 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QYUtilCore'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QYUtilCore.'
+  s.version          = '0.0.1'
+  s.summary          = '项目公用基础库'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 项目公用基础库，单独模块.
                        DESC
 
-  s.homepage         = 'https://github.com/qianyuIm/QYUtilCore'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/QianyuImComponent/QYUtilCore'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qianyuIm' => '1040583846@qq.com' }
-  s.source           = { :git => 'https://github.com/qianyuIm/QYUtilCore.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'QYUtilCore/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'QYUtilCore' => ['QYUtilCore/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
+  s.source           = { :git => 'https://github.com/QianyuImComponent/QYUtilCore.git', :tag => s.version.to_s }
+  
+  s.subspec 'Base' do |sp|
+    sp.source_files  = 'QYUtilCore/Classes/Base/*/*'
+    sp.dependency 'HBDNavigationBar','~> 1.7.7'
+    sp.dependency 'UINavigation-SXFixSpace', '~> 1.2.4'
+    sp.dependency 'QYUtilCore/Dependent'
+  end
+  
+  s.subspec 'Route' do |sp|
+    sp.source_files  = 'QYUtilCore/Classes/Route/*'
+    sp.dependency 'URLNavigator', '~> 2.3.0'
+  end
+  
+  s.subspec 'Dependent' do |sp|
+    sp.source_files  = 'QYUtilCore/Classes/Dependent/*'
+    sp.dependency 'QYUtilCore/Extensions'
+  end
+  
+  s.subspec 'Extensions' do |sp|
+      sp.source_files  = 'QYUtilCore/Classes/Extensions/*'
+      
+  end
+  
 end

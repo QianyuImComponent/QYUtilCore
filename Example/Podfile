@@ -1,11 +1,8 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'QYUtilCore_Example' do
   pod 'QYUtilCore', :path => '../'
 
-  target 'QYUtilCore_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  pod 'SwifterSwift'
 end

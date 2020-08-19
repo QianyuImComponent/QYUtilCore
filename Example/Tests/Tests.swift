@@ -1,5 +1,4 @@
 import XCTest
-import QYUtilCore
 
 class Tests: XCTestCase {
     

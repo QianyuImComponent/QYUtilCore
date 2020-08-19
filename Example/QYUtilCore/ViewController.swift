@@ -2,12 +2,12 @@
 //  ViewController.swift
 //  QYUtilCore
 //
-//  Created by qianyuIm on 08/19/2020.
-//  Copyright (c) 2020 qianyuIm. All rights reserved.
+//  Created by lipengyuan on 08/19/2020.
+//  Copyright (c) 2020 lipengyuan. All rights reserved.
 //
 
 import UIKit
-
+import QYUtilCore
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

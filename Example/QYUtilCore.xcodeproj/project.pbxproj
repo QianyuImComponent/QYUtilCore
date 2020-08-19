@@ -13,8 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8754042F8E06E924D11CEB91 /* Pods_QYUtilCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514DEFB0739140DC7AE284B8 /* Pods_QYUtilCore_Example.framework */; };
-		A72AF75171CDD11A8C1C639B /* Pods_QYUtilCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8755F636487D0688CD70E603 /* Pods_QYUtilCore_Tests.framework */; };
+		764AF4301B13050CCA070750 /* Pods_QYUtilCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADA7F101AC62A412DA81466 /* Pods_QYUtilCore_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B60376739A78CC5B31A7C1C /* QYUtilCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QYUtilCore.podspec; path = ../QYUtilCore.podspec; sourceTree = "<group>"; };
-		12A02862F5F4D37803A18AB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4ACBCB1AC0EF8938272FE0F4 /* Pods-QYUtilCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtilCore_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYUtilCore_Tests/Pods-QYUtilCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4EAE6EF8F090D1593E0080C9 /* Pods-QYUtilCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtilCore_Example.release.xcconfig"; path = "Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		514DEFB0739140DC7AE284B8 /* Pods_QYUtilCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtilCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5686BAA6E3A4E9CF220A2790 /* Pods-QYUtilCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtilCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QYUtilCore_Tests/Pods-QYUtilCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A82B6E2B69F2A1E907C1E8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0E0B7770DAF3E0EE902B2BED /* Pods-QYUtilCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtilCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5ADA7F101AC62A412DA81466 /* Pods_QYUtilCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtilCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* QYUtilCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYUtilCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +40,9 @@
 		607FACE51AFB9204008FA782 /* QYUtilCore_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYUtilCore_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B7B1A199BEA2B4E8BBAAAD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8755F636487D0688CD70E603 /* Pods_QYUtilCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYUtilCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA25AF6318EFD97BB508585E /* Pods-QYUtilCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtilCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3D2733BD9FE25FDFE3543D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A821FBC979CAFAD580F65C9A /* QYUtilCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYUtilCore.podspec; path = ../QYUtilCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7B12415AB8CAC6546A07AD0 /* Pods-QYUtilCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYUtilCore_Example.release.xcconfig"; path = "Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8754042F8E06E924D11CEB91 /* Pods_QYUtilCore_Example.framework in Frameworks */,
+				764AF4301B13050CCA070750 /* Pods_QYUtilCore_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +58,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A72AF75171CDD11A8C1C639B /* Pods_QYUtilCore_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4129C390E52C48A4AE6AF819 /* Pods */ = {
+		19E91E1637D82FD2622FFC92 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA25AF6318EFD97BB508585E /* Pods-QYUtilCore_Example.debug.xcconfig */,
-				4EAE6EF8F090D1593E0080C9 /* Pods-QYUtilCore_Example.release.xcconfig */,
-				5686BAA6E3A4E9CF220A2790 /* Pods-QYUtilCore_Tests.debug.xcconfig */,
-				4ACBCB1AC0EF8938272FE0F4 /* Pods-QYUtilCore_Tests.release.xcconfig */,
+				0E0B7770DAF3E0EE902B2BED /* Pods-QYUtilCore_Example.debug.xcconfig */,
+				E7B12415AB8CAC6546A07AD0 /* Pods-QYUtilCore_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,8 +80,8 @@
 				607FACD21AFB9204008FA782 /* Example for QYUtilCore */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				4129C390E52C48A4AE6AF819 /* Pods */,
-				A5EC4E11C6340CE1C3C32970 /* Frameworks */,
+				19E91E1637D82FD2622FFC92 /* Pods */,
+				82EF4920D8480B74271310BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,18 +136,17 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0B60376739A78CC5B31A7C1C /* QYUtilCore.podspec */,
-				12A02862F5F4D37803A18AB2 /* README.md */,
-				7B7B1A199BEA2B4E8BBAAAD4 /* LICENSE */,
+				A821FBC979CAFAD580F65C9A /* QYUtilCore.podspec */,
+				7B3D2733BD9FE25FDFE3543D /* README.md */,
+				0A82B6E2B69F2A1E907C1E8E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A5EC4E11C6340CE1C3C32970 /* Frameworks */ = {
+		82EF4920D8480B74271310BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				514DEFB0739140DC7AE284B8 /* Pods_QYUtilCore_Example.framework */,
-				8755F636487D0688CD70E603 /* Pods_QYUtilCore_Tests.framework */,
+				5ADA7F101AC62A412DA81466 /* Pods_QYUtilCore_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,11 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QYUtilCore_Example" */;
 			buildPhases = (
-				CDC47F668FE170698DFFF60F /* [CP] Check Pods Manifest.lock */,
+				C1942381C78532580469BA4A /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				E3CB6A46C2041C0DE2FBA8D9 /* [CP] Embed Pods Frameworks */,
+				BAC07754DC06F86EE4E63013 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QYUtilCore_Tests" */;
 			buildPhases = (
-				97395AACEFB4C815727817A8 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -213,11 +203,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1160;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1160;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +217,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,29 +253,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		97395AACEFB4C815727817A8 /* [CP] Check Pods Manifest.lock */ = {
+		BAC07754DC06F86EE4E63013 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/QYUtilCore/QYUtilCore.framework",
+				"${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework",
+				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QYUtilCore_Tests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QYUtilCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UINavigation_SXFixSpace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLNavigator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDC47F668FE170698DFFF60F /* [CP] Check Pods Manifest.lock */ = {
+		C1942381C78532580469BA4A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,24 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3CB6A46C2041C0DE2FBA8D9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QYUtilCore/QYUtilCore.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QYUtilCore.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYUtilCore_Example/Pods-QYUtilCore_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -475,37 +450,38 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA25AF6318EFD97BB508585E /* Pods-QYUtilCore_Example.debug.xcconfig */;
+			baseConfigurationReference = 0E0B7770DAF3E0EE902B2BED /* Pods-QYUtilCore_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYUtilCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EAE6EF8F090D1593E0080C9 /* Pods-QYUtilCore_Example.release.xcconfig */;
+			baseConfigurationReference = E7B12415AB8CAC6546A07AD0 /* Pods-QYUtilCore_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYUtilCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5686BAA6E3A4E9CF220A2790 /* Pods-QYUtilCore_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -520,14 +496,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYUtilCore_Example.app/QYUtilCore_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ACBCB1AC0EF8938272FE0F4 /* Pods-QYUtilCore_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -538,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYUtilCore_Example.app/QYUtilCore_Example";
 			};
 			name = Release;
