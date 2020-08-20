@@ -29,6 +29,8 @@ TODO: 项目公用基础库，单独模块.
     sp.source_files  = 'QYUtilCore/Classes/Base/*/*'
     sp.dependency 'HBDNavigationBar','~> 1.7.7'
     sp.dependency 'UINavigation-SXFixSpace', '~> 1.2.4'
+    sp.dependency 'NSObject+Rx', '~> 5.1.0'
+#    sp.dependency 'RxCocoa'
     sp.dependency 'QYUtilCore/Dependent'
   end
   

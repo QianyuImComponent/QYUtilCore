@@ -7,6 +7,6 @@
 
 import UIKit
 
-class QYViewModel: NSObject {
+open class QYViewModel: NSObject {
 
 }
