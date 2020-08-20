@@ -9,7 +9,8 @@ PODS:
     - HBDNavigationBar (~> 1.7.7)
     - QYUtilCore/Dependent
     - UINavigation-SXFixSpace (~> 1.2.4)
-  - QYUtilCore/Dependent (0.0.1)
+  - QYUtilCore/Dependent (0.0.1):
+    - QYUtilCore/Extensions
   - QYUtilCore/Extensions (0.0.1)
   - QYUtilCore/Route (0.0.1):
     - URLNavigator (~> 2.3.0)
@@ -31,7 +32,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
-  QYUtilCore: a8a31ffa51b767ee654ffe2cafb75314119723fa
+  QYUtilCore: c18ab2567c684492b2c1b477a8bc0acd718f5563
   UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
   URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
 
